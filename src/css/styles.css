@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.navigation-container {
+  background-color: #289989;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+
+.comprados-container {
+  background-color: #44a080;
+}
