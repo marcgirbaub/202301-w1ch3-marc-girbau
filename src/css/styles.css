@@ -1,3 +1,5 @@
+@import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,10 @@ header section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
+}
+
+section i {
+  font-size: 1.5rem;
 }
 
 .navigation-container {
